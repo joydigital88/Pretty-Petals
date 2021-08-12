@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="product.css">
+    <title>Mixed Roses</title>
+</head>
+<body>
+    <!-- Section-Nav -->
+    <nav class="section-nav">
+        <div class="nav-wrapper">
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/logo/PrettyPetals1.png" alt="Pretty Petals"></a>
+            </div>
+            <ul class="nav-menus">
+                <li class="nav-item" data-content="flowers"><a href="#"></a>flowers</li>
+                <li class="nav-item" data-content="about us"><a href="#"></a>about us</li>
+                <li class="nav-item" data-content="sign in"><a href="#"></a>sign in</li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+            <div class="shopping-cart">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Section-Nav -->
+
+    <!-- Section-Breadcrum -->
+    <div class="breadcrum">
+        <span><a href="index.html">home</a></span>
+        <span>&gt;</span>
+        <span><a href="#">flowers</a></span>
+    </div>
+    <!-- End of Section-Breadcrum -->
+
+    <!-- Section-Product -->
+    <section class="section-product">
+        <div class="product-wrapper center">
+            <div class="product-images">
+                <div class="images-wrapper center">
+                    <div class="primary-image">
+                        <img src="images/flowers/main_flower/1.jpeg" alt="Flower 1">
+                    </div>
+                    <div class="secondary-images center">
+                        <span class="slider-lt">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <div class="secondary-image secondary-image--1">
+                            <img src="images/flowers/main_flower/1.jpeg" alt="Flower 1">
+                        </div>
+                        <div class="secondary-image secondary-image--2">
+                            <img src="images/flowers/main_flower/2.jpg" alt="Flower 2">
+                        </div>
+                        <div class="secondary-image secondary-image--3">
+                            <img src="images/flowers/main_flower/3.jpg" alt="Flower 3">
+                        </div>
+                        <span class="slider-gt">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="purchase-product">
+                <div class="purchase-wrapper center">
+                    <h1 class="product-title">Mixed Roses</h1>
+                    <p class="product-price">$99</p>
+                    <div class="input-group center">
+                        <label for="delivery-date">Delivery Date*</label>
+                        <input type="date" id="delivery-date" name="delivery" value="2021-06-05" min="2021-06-05" max="2022-01-01">
+                    </div>
+                    <div class="purchasing-options">
+                        <h3>Purchasing Options</h3>
+                        <div class="radio-group">
+                            <div>
+                                <input type="radio" id="one-time" name="purchase" value="one-time" checked>
+                                <label for="one-time">One time purchase</label>
+                              </div>
+                              <div>
+                                <input type="radio" id="subscribe" name="purchase" value="subscribe">
+                                <label for="subscribe">Subscribe now, and save 30% on this order <a href="#">LEARN MORE</a></label>
+                              </div>
+                        </div>
+                        <button class="btn btn-basket">add to basket</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Section-Product -->
+
+    <!-- Section-Description -->
+    <section class="section-description">
+        <div class="description-wrapper">
+            <div class="description">
+                Colorful and blooming, this vibrant bouquet of a dozen roses is an instant mood booster. An abundance of the freshest roses is paired with touches of lush greenery to delight everyone from your special someone to your best friend for any occasion or sentiment.
+            </div>
+            <div class="details">
+                <h3>Details</h3>
+                <ul class="detail-items">
+                    <li class="detail-item">One dozen mixed roses are about 17”H by 15”W</li>
+                    <li class="detail-item">A farm-fresh bunch of 12 floral stems and foliage</li>
+                    <li class="detail-item">Includes a clear glass ginger vase</li>
+                    <li class="detail-item">This bouquet comes with floral food and care instructions, packed carefully in a gift box</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End of Section-Description -->
+
+    <!-- Section-Collection -->
+    <section class="section-collection">
+        <h2>more products in this collection</h2>
+        <div class="collection-cards-wrapper">
+            <div class="collection-card collection-card--1">
+                <a href="#">
+                    <div class="collection-image">
+                        <img src="images/flowers/product_page_flowers/BestDay.jpeg" alt="Bouquet 1">
+                    </div>
+                    <div class="collection-text">
+                        <h4 class="collection-heading">Best Day Bouquet</h4>
+                        <p class="collection-price">$66</p>
+                    </div>
+                </a>
+            </div>
+            <div class="collection-card collection-card--2">
+                <a href="#">
+                    <div class="collection-image">
+                        <img src="images/flowers/product_page_flowers/LongStemPinkRose.jpeg" alt="Bouquet 2">
+                    </div>
+                    <div class="collection-text">
+                        <h4 class="collection-heading">Pink Roses</h4>
+                        <p class="collection-price">$75</p>
+                    </div>
+                </a>
+            </div>
+            <div class="collection-card collection-card--3">
+                <a href="#">
+                    <div class="collection-image">
+                        <img src="images/flowers/product_page_flowers/GoldenDaffodil.jpeg" alt="Bouquet 3">
+                    </div>
+                    <div class="collection-text">
+                        <h4 class="collection-heading">Daffodil Garden</h4>
+                        <p class="collection-price">$42</p>
+                    </div>
+                </a>
+            </div>
+            <div class="collection-card collection-card--4">
+                <a href="#">
+                    <div class="collection-image">
+                        <img src="images/flowers/product_page_flowers/WatercolorSkies.jpeg" alt="Bouquet 4">
+                    </div>
+                    <div class="collection-text">
+                        <h4 class="collection-heading">Tulip Garden</h4>
+                        <p class="collection-price">$55</p>
+                    </div>
+                </a>
+            </div> 
+        </div>
+    </section>
+    <!-- End of Section-Collection -->
+
+     <!-- Section-Social_Media -->
+     <section class="section-social_media center">
+        <div class="social_media-wrapper center">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+    <!-- End of Section-Social_Media -->
+
+    <!-- Section-Footer -->
+    <footer class="section-footer center">
+        <div class="top_footer-wrapper center">
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/logo/PrettyPetals_2.png" alt="Pretty Petals"></a>
+            </div>
+            <div class="company-info">
+                <div class="delivery">
+                    <h5>San Diego County Deliveries</h5>
+                    <p>Monday - Sunday 8 am - 9 pm</p>
+                </div>
+                <div class="location">
+                    <h5>South Park</h5>
+                    <p>345 A St, San Diego, CA 92102</p>
+                    <p>Open: Tuesday - Saturday 8 am - 5 pm</p>
+                </div>
+                <div class="phone">
+                    <h5>Call Us</h5>
+                    <p>888.888.8888</p>
+                </div>
+                <div class="email">
+                    <h5>Email Us</h5>
+                    <p>service@prettypetals.com</p>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h3>Sign up for our mailing list</h3>
+                <p>Be the first to know about new promotions by submitting your email!</p>
+                <div class="input-group">
+                    <input type="text" placeholder="Enter Your Email">
+                    <input type="submit" value="subscribe" class="btn-input">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer-wrapper center">
+            <ul class="footer-links center">
+                <li class="footer-link"><a href="#">Search</a></li>
+                <li class="footer-link"><a href="#">FAQ</a></li>
+                <li class="footer-link"><a href="#">Contact</a></li>
+                <li class="footer-link"><a href="#">Return Policy</a></li>
+                <li class="footer-link"><a href="#">Terms of Service</a></li>
+                <li class="footer-link"><a href="#">Delivery Options</a></li>
+            </ul>
+            <div class="footer-line"></div>
+            <div class="copyright">&copy; Copyright 2021 Pretty Petals</div>
+        </div>
+    </footer>
+    <!-- End of Section-Footer -->
+    <script src="script.js"></script>
+</body>
+</html>

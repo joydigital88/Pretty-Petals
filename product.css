@@ -1,0 +1,380 @@
+/* Section-Breadcrum */
+.breadcrum {
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.breadcrum span {
+    padding-right: .5rem;
+}
+
+.breadcrum a {
+    font-size: 1.2rem;
+    color: #333;
+    text-transform: uppercase;
+}
+/* End of Section-Breadcrum */
+
+/* Section-Product */
+.product-wrapper {
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+    margin: 0 auto;
+}
+
+.product-images {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.images-wrapper {
+    width: 80%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.primary-image {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.primary-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.secondary-images {
+    margin-top: 1rem;
+}
+
+.secondary-image {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+
+.secondary-images > *:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.secondary-images span i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.secondary-images img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.secondary-image--1 {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.purchase-product {
+    width: 100%;
+}
+
+.purchase-wrapper {
+    flex-direction: column;
+}
+
+.purchase-wrapper > * {
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.purchase-wrapper .product-title {
+    font-size: 2.2rem;
+    margin: 3rem 0;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.purchase-wrapper .input-group {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group label {
+    margin-bottom: 1rem;
+}
+
+.input-group input[type="date"] {
+    width: 50%;
+    padding: .5rem 1rem;
+}
+
+.input-group input[type="date"]:focus {
+    outline: none;
+    border: .1rem solid #333;
+}
+
+.purchasing-options {
+    margin-top: 1rem;
+}
+
+.purchasing-options > * {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.radio-group input[type="radio"] {
+    margin-bottom: 1rem;
+}
+
+.radio-group label a {
+    color: #E66969;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #E66969;
+    white-space: nowrap;
+}
+
+.radio-group label a:hover {
+    color: #e64646;
+    border-bottom: 1px solid #e64646;
+}
+
+.btn.btn-basket {
+    width: 100%; 
+    margin-bottom: 3rem;
+}
+/* End of Section-Product */
+
+/* Section-Description */
+.section-description {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.description-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description {
+    margin-bottom: 2rem;
+}
+
+.details h3 {
+    margin-bottom: 2rem;
+}
+
+.details ul {
+    list-style: circle;
+    margin-left: 2rem;
+}
+
+.details ul li {
+    margin-bottom: 1rem;
+}
+/* End of Section-Description */
+
+/* Section-Collection */
+.section-collection {
+    width: 100%;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 4rem 0 5rem 0;
+}
+
+.section-collection h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.collection-cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-row-gap: 5rem;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.collection-card {
+    max-width: 25rem;
+    max-height: 33rem;
+    background-color: #E1E9DF;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.section-collection a {
+    color: #333;
+}
+
+.collection-image {
+    max-width: 25rem;
+    max-height: 25rem;
+}
+
+.collection-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection-text {
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.collection-heading {
+    margin-bottom: 1rem;
+}
+/* End of Section-Collection */
+
+/* Responsive */
+@media screen and (min-width:480px) {
+    .primary-image {
+        max-width: 32rem;
+        max-height: 32rem;
+    }
+
+    .secondary-image {
+        max-width: 9rem;
+        max-height: 9rem;
+    }
+
+    .btn.btn-basket {
+        display: block;
+        width: 60%;
+        margin: 0 auto 3rem auto;
+    }
+
+    .collection-card {
+        max-width: 28rem;
+        max-height: 37rem;
+    }
+    
+    .collection-image {
+        max-width: 28rem;
+        max-height: 28rem;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .breadcrum {
+        padding: 4rem 0 4rem 5rem;
+    }
+    
+    .primary-image {
+        max-width: 35rem;
+        max-height: 35rem;
+    }
+
+    .secondary-image {
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+
+    .purchase-wrapper .product-title {
+        margin: 4rem 0;
+    }
+
+    .radio-group input[type="radio"] {
+        margin-bottom: 2rem;
+    }
+
+    .section-collection {
+        padding: 6rem 0;
+    }
+
+    .collection-cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10rem;
+        grid-row-gap: 10rem;
+        margin: 6.5rem auto 2rem auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .product-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .purchase-wrapper .product-title {
+        font-size: 2.4rem;
+        margin-top: 0;
+    } 
+
+    .secondary-image {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .btn.btn-basket {
+        width: 80%;
+        margin-top: 3.5rem;
+        margin-left: 0;
+    }
+
+    .section-description {
+        margin: 1rem auto 6rem auto;
+    }
+
+    .collection-cards-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 3rem;
+    }
+
+    .collection-card {
+        max-width: 20rem;
+        max-height: 28rem;
+    }
+    
+    .collection-image {
+        max-width: 20rem;
+        max-height: 20rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .primary-image {
+        max-width: 38rem;
+        max-height: 38rem;
+    }
+
+    .secondary-image {
+        max-width: 12rem;
+        max-height: 12rem;
+    }
+
+    .collection-card {
+        max-width: 25rem;
+        max-height: 33rem;
+    }
+    
+    .collection-image {
+        max-width: 25rem;
+        max-height: 25rem;
+    }
+}    
+
+@media screen and (min-width:1400px) {
+    .breadcrum {
+        max-width: 130rem;
+    }
+    .product-wrapper {
+        max-width: 130rem;
+    }
+
+    .description-wrapper {
+        max-width: 130rem;
+    }
+
+    .collection-cards-wrapper {
+        max-width: 130rem;
+    }
+}
+/* End of Responsive */
